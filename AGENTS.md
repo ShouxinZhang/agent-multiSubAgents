@@ -2,8 +2,8 @@
 
 ## Language and Communication
 
-- Follow the user's language by default.
-- Explain decisions from business outcomes: value, benefits, risks, and impact scope.
+- The user communicates in Chinese; by default, write documentation, logs, and explanations in Chinese.
+- Communicate from a business-outcome perspective: clarify value, benefits, risks, and impact scope.
 
 ## Core Engineering Rules
 
@@ -28,6 +28,7 @@ If the user explicitly names a skill (for example `$build-check`), prioritize it
 ## Human Intent Alignment
 
 Before any code change, align and confirm:
+
 - files to modify/add
 - core implementation approach
 - impact scope and risks

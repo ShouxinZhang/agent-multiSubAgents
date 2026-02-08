@@ -18,3 +18,9 @@ node_modules/
 demos/gomoku-10x10-kernel/.run/
 demos/gomoku-10x10-kernel/web-react/dist/
 
+# Python cache
+__pycache__/
+*.pyc
+
+# Gomoku runtime state
+apps/gomoku_codex_cli/runtime/*.json

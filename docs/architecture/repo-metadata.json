@@ -1,0 +1,1277 @@
+{
+  "version": 1,
+  "config": {
+    "scanIgnore": [
+      "docs/dev_logs/**",
+      "docs/private_context/**"
+    ],
+    "generateMdDepth": 2
+  },
+  "updatedAt": "2026-02-08T03:09:46.415Z",
+  "nodes": {
+    ".agents": {
+      "type": "directory",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    ".agents/skills": {
+      "type": "directory",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    ".agents/skills/build-check": {
+      "type": "directory",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    ".agents/skills/build-check/SKILL.md": {
+      "type": "file",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    ".agents/skills/dependency-review-system": {
+      "type": "directory",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    ".agents/skills/dependency-review-system/SKILL.md": {
+      "type": "file",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    ".agents/skills/dependency-review-system/subskills": {
+      "type": "directory",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    ".agents/skills/dependency-review-system/subskills/collect-context.md": {
+      "type": "file",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    ".agents/skills/dependency-review-system/subskills/decision-gate.md": {
+      "type": "file",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    ".agents/skills/dependency-review-system/subskills/dependency-guard.md": {
+      "type": "file",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    ".agents/skills/dependency-review-system/subskills/risk-analyzer.md": {
+      "type": "file",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    ".agents/skills/dependency-review-system/subskills/test-gap-mapper.md": {
+      "type": "file",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    ".agents/skills/dev-logs": {
+      "type": "directory",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    ".agents/skills/dev-logs/SKILL.md": {
+      "type": "file",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    ".agents/skills/domain-data-update": {
+      "type": "directory",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    ".agents/skills/domain-data-update/SKILL.md": {
+      "type": "file",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    ".agents/skills/git-management": {
+      "type": "directory",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    ".agents/skills/git-management/SKILL.md": {
+      "type": "file",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    ".agents/skills/local-dev-workflow": {
+      "type": "directory",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    ".agents/skills/local-dev-workflow/SKILL.md": {
+      "type": "file",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    ".agents/skills/modularization-governance": {
+      "type": "directory",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    ".agents/skills/modularization-governance/SKILL.md": {
+      "type": "file",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    ".agents/skills/modularization-governance/references": {
+      "type": "directory",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    ".agents/skills/modularization-governance/references/modularity-policy.template.json": {
+      "type": "file",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    ".agents/skills/modularization-governance/references/refactor-playbook.md": {
+      "type": "file",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    ".agents/skills/modularization-governance/references/scorecard.md": {
+      "type": "file",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    ".agents/skills/modularization-governance/scripts": {
+      "type": "directory",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    ".agents/skills/modularization-governance/scripts/check-modularity.mjs": {
+      "type": "file",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    ".agents/skills/modularization-governance/scripts/check-unused-symbols.mjs": {
+      "type": "file",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    ".agents/skills/repo-structure-sync": {
+      "type": "directory",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    ".agents/skills/repo-structure-sync/SKILL.md": {
+      "type": "file",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    ".gitattributes": {
+      "type": "file",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    ".gitignore": {
+      "type": "file",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    "AGENTS.md": {
+      "type": "file",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    "LICENSE": {
+      "type": "file",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    "apps": {
+      "type": "directory",
+      "description": "application modules",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "human",
+      "updatedAt": "2026-02-08T02:57:23.261Z"
+    },
+    "apps/gomoku_codex_cli": {
+      "type": "directory",
+      "description": "dual Codex CLI Gomoku app",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "human",
+      "updatedAt": "2026-02-08T02:57:23.282Z"
+    },
+    "apps/gomoku_codex_cli/README.md": {
+      "type": "file",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:57:10.850Z"
+    },
+    "apps/gomoku_codex_cli/gomoku": {
+      "type": "directory",
+      "description": "gomoku engine, mcp tools, agents, GUI",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "human",
+      "updatedAt": "2026-02-08T02:57:23.303Z"
+    },
+    "apps/gomoku_codex_cli/gomoku/__init__.py": {
+      "type": "file",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:57:10.850Z"
+    },
+    "apps/gomoku_codex_cli/gomoku/codex_agent.py": {
+      "type": "file",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:57:10.850Z"
+    },
+    "apps/gomoku_codex_cli/gomoku/engine.py": {
+      "type": "file",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:57:10.850Z"
+    },
+    "apps/gomoku_codex_cli/gomoku/gui.py": {
+      "type": "file",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:57:10.850Z"
+    },
+    "apps/gomoku_codex_cli/gomoku/mcp_server.py": {
+      "type": "file",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:57:10.850Z"
+    },
+    "apps/gomoku_codex_cli/gomoku/memory_store.py": {
+      "type": "file",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:57:10.850Z"
+    },
+    "apps/gomoku_codex_cli/gomoku/state_store.py": {
+      "type": "file",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:57:10.850Z"
+    },
+    "apps/gomoku_codex_cli/main.py": {
+      "type": "file",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:57:10.850Z"
+    },
+    "apps/gomoku_codex_cli/requirements.txt": {
+      "type": "file",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:57:10.850Z"
+    },
+    "apps/gomoku_codex_cli/runtime": {
+      "type": "directory",
+      "description": "runtime state and memory snapshots",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "human",
+      "updatedAt": "2026-02-08T02:57:23.343Z"
+    },
+    "apps/gomoku_codex_cli/runtime/.gitkeep": {
+      "type": "file",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:57:10.850Z"
+    },
+    "apps/gomoku_codex_cli/tests": {
+      "type": "directory",
+      "description": "unit tests for gomoku app",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "human",
+      "updatedAt": "2026-02-08T02:57:23.325Z"
+    },
+    "apps/gomoku_codex_cli/tests/test_engine.py": {
+      "type": "file",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:57:10.850Z"
+    },
+    "docs": {
+      "type": "directory",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:57:10.850Z"
+    },
+    "docs/architecture": {
+      "type": "directory",
+      "description": "generated repository metadata and tree",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "human",
+      "updatedAt": "2026-02-08T02:57:23.362Z"
+    },
+    "docs/architecture/repo-metadata.json": {
+      "type": "file",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:57:10.850Z"
+    },
+    "docs/architecture/repository-structure.md": {
+      "type": "file",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:57:10.850Z"
+    },
+    "docs/dev_logs": {
+      "type": "directory",
+      "description": "development cycle logs",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "human",
+      "updatedAt": "2026-02-08T03:09:46.415Z"
+    },
+    "general-skills": {
+      "type": "directory",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    "general-skills/.agents": {
+      "type": "directory",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    "general-skills/.agents/skills": {
+      "type": "directory",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    "general-skills/.agents/skills/local-dev-workflow": {
+      "type": "directory",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    "general-skills/.agents/skills/local-dev-workflow/SKILL.md": {
+      "type": "file",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    "general-skills/.agents/skills/local-dev-workflow/subskills": {
+      "type": "directory",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    "general-skills/.agents/skills/local-dev-workflow/subskills/build-check.md": {
+      "type": "file",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    "general-skills/.agents/skills/local-dev-workflow/subskills/dependency-review-system": {
+      "type": "directory",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    "general-skills/.agents/skills/local-dev-workflow/subskills/dependency-review-system.md": {
+      "type": "file",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    "general-skills/.agents/skills/local-dev-workflow/subskills/dependency-review-system/collect-context.md": {
+      "type": "file",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    "general-skills/.agents/skills/local-dev-workflow/subskills/dependency-review-system/decision-gate.md": {
+      "type": "file",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    "general-skills/.agents/skills/local-dev-workflow/subskills/dependency-review-system/dependency-guard.md": {
+      "type": "file",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    "general-skills/.agents/skills/local-dev-workflow/subskills/dependency-review-system/risk-analyzer.md": {
+      "type": "file",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    "general-skills/.agents/skills/local-dev-workflow/subskills/dependency-review-system/test-gap-mapper.md": {
+      "type": "file",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    "general-skills/.agents/skills/local-dev-workflow/subskills/dev-logs.md": {
+      "type": "file",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    "general-skills/.agents/skills/local-dev-workflow/subskills/domain-data-update.md": {
+      "type": "file",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    "general-skills/.agents/skills/local-dev-workflow/subskills/git-management.md": {
+      "type": "file",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    "general-skills/.agents/skills/local-dev-workflow/subskills/modularization-governance.md": {
+      "type": "file",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    "general-skills/.agents/skills/local-dev-workflow/subskills/repo-structure-sync.md": {
+      "type": "file",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    "general-skills/AGENTS.md": {
+      "type": "file",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    "general-skills/README.md": {
+      "type": "file",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    "general-skills/docs": {
+      "type": "directory",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    "general-skills/docs/dev_logs": {
+      "type": "directory",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    "general-skills/docs/dev_logs/2026-02-08": {
+      "type": "directory",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    "general-skills/docs/dev_logs/2026-02-08/01-general-skills-dedup-and-skill-doc-restructure.md": {
+      "type": "file",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    "general-skills/docs/dev_logs/2026-02-08/02-skill-entry-subskills-and-agents-pairing.md": {
+      "type": "file",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    "general-skills/docs/dev_logs/2026-02-08/03-single-entry-skill-and-chinese-agents.md": {
+      "type": "file",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    "general-skills/scripts": {
+      "type": "directory",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    "general-skills/scripts/check_errors.sh": {
+      "type": "file",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    "general-skills/scripts/lib": {
+      "type": "directory",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    "general-skills/scripts/lib/common.mjs": {
+      "type": "file",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    "general-skills/scripts/modularization-governance": {
+      "type": "directory",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    "general-skills/scripts/modularization-governance/README.md": {
+      "type": "file",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    "general-skills/scripts/modularization-governance/references": {
+      "type": "directory",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    "general-skills/scripts/modularization-governance/references/modularity-policy.template.json": {
+      "type": "file",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    "general-skills/scripts/modularization-governance/references/refactor-playbook.md": {
+      "type": "file",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    "general-skills/scripts/modularization-governance/references/scorecard.md": {
+      "type": "file",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    "general-skills/scripts/modularization-governance/scripts": {
+      "type": "directory",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    "general-skills/scripts/modularization-governance/scripts/check-modularity.mjs": {
+      "type": "file",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    "general-skills/scripts/modularization-governance/scripts/check-unused-symbols.mjs": {
+      "type": "file",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    "general-skills/scripts/repo-metadata": {
+      "type": "directory",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    "general-skills/scripts/repo-metadata/README.md": {
+      "type": "file",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    "general-skills/scripts/repo-metadata/lib": {
+      "type": "directory",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    "general-skills/scripts/repo-metadata/lib/shared.mjs": {
+      "type": "file",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    "general-skills/scripts/repo-metadata/mcp-server.mjs": {
+      "type": "file",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    "general-skills/scripts/repo-metadata/package.json": {
+      "type": "file",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    "general-skills/scripts/repo-metadata/scripts": {
+      "type": "directory",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    "general-skills/scripts/repo-metadata/scripts/crud.mjs": {
+      "type": "file",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    "general-skills/scripts/repo-metadata/scripts/generate-structure-md.mjs": {
+      "type": "file",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    "general-skills/scripts/repo-metadata/scripts/scan.mjs": {
+      "type": "file",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    "general-skills/scripts/repo-metadata/scripts/sync-json-to-postgres.mjs": {
+      "type": "file",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    "general-skills/scripts/repo-metadata/scripts/sync-to-json.mjs": {
+      "type": "file",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    "general-skills/scripts/repo-metadata/sql": {
+      "type": "directory",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    "general-skills/scripts/repo-metadata/sql/001_init.sql": {
+      "type": "file",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    "general-skills/scripts/review": {
+      "type": "directory",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    "general-skills/scripts/review/README.md": {
+      "type": "file",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    "general-skills/scripts/review/config": {
+      "type": "directory",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    "general-skills/scripts/review/config/policy.json": {
+      "type": "file",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    "general-skills/scripts/review/input": {
+      "type": "directory",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    "general-skills/scripts/review/input/.gitkeep": {
+      "type": "file",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    "general-skills/scripts/review/mcp-server.mjs": {
+      "type": "file",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    "general-skills/scripts/review/run.sh": {
+      "type": "file",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    "general-skills/scripts/review/scripts": {
+      "type": "directory",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    "general-skills/scripts/review/scripts/collect-context.mjs": {
+      "type": "file",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    "general-skills/scripts/review/scripts/dependency-gate.mjs": {
+      "type": "file",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    "general-skills/scripts/review/scripts/run-review.mjs": {
+      "type": "file",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    "general-skills/scripts/review/scripts/validate-llm-report.mjs": {
+      "type": "file",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    "general-skills/scripts/review/templates": {
+      "type": "directory",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    "general-skills/scripts/review/templates/llm-review.template.json": {
+      "type": "file",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    "restart.sh": {
+      "type": "file",
+      "description": "one-click restart launcher for Gomoku app",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "human",
+      "updatedAt": "2026-02-08T03:09:46.395Z"
+    },
+    "scripts": {
+      "type": "directory",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    "scripts/check_errors.sh": {
+      "type": "file",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    "scripts/repo-metadata": {
+      "type": "directory",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    "scripts/repo-metadata/README.md": {
+      "type": "file",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    "scripts/repo-metadata/lib": {
+      "type": "directory",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    "scripts/repo-metadata/lib/shared.mjs": {
+      "type": "file",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    "scripts/repo-metadata/mcp-server.mjs": {
+      "type": "file",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    "scripts/repo-metadata/package.json": {
+      "type": "file",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    "scripts/repo-metadata/scripts": {
+      "type": "directory",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    "scripts/repo-metadata/scripts/crud.mjs": {
+      "type": "file",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    "scripts/repo-metadata/scripts/generate-structure-md.mjs": {
+      "type": "file",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    "scripts/repo-metadata/scripts/scan.mjs": {
+      "type": "file",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    "scripts/repo-metadata/scripts/sync-json-to-postgres.mjs": {
+      "type": "file",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    "scripts/repo-metadata/scripts/sync-to-json.mjs": {
+      "type": "file",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    "scripts/repo-metadata/sql": {
+      "type": "directory",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    "scripts/repo-metadata/sql/001_init.sql": {
+      "type": "file",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    "scripts/review": {
+      "type": "directory",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    "scripts/review/README.md": {
+      "type": "file",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    "scripts/review/config": {
+      "type": "directory",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    "scripts/review/config/policy.json": {
+      "type": "file",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    "scripts/review/input": {
+      "type": "directory",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    "scripts/review/input/.gitkeep": {
+      "type": "file",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    "scripts/review/mcp-server.mjs": {
+      "type": "file",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    "scripts/review/run.sh": {
+      "type": "file",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    "scripts/review/scripts": {
+      "type": "directory",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    "scripts/review/scripts/collect-context.mjs": {
+      "type": "file",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    "scripts/review/scripts/dependency-gate.mjs": {
+      "type": "file",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    "scripts/review/scripts/run-review.mjs": {
+      "type": "file",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    "scripts/review/scripts/validate-llm-report.mjs": {
+      "type": "file",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    "scripts/review/templates": {
+      "type": "directory",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    },
+    "scripts/review/templates/llm-review.template.json": {
+      "type": "file",
+      "description": "",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "scan",
+      "updatedAt": "2026-02-08T02:56:27.634Z"
+    }
+  }
+}
