@@ -1,0 +1,18 @@
+{
+  "generatedAt": "2026-02-07T08:32:53.380Z",
+  "policyPath": "scripts/review/config/policy.json",
+  "summary": {
+    "modules": 24,
+    "cycleCount": 0,
+    "forbiddenCount": 0,
+    "parseErrorCount": 0,
+    "passed": true
+  },
+  "thresholds": {
+    "maxCircularDependencies": 0,
+    "maxForbiddenDependencies": 0
+  },
+  "cycles": [],
+  "forbiddenEdges": [],
+  "parseErrors": []
+}

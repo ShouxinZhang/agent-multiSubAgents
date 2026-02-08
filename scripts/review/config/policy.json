@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "thresholds": {
+    "maxCircularDependencies": 0,
+    "maxForbiddenDependencies": 0,
+    "minLlmConfidence": 0.75
+  },
+  "layerRules": [
+    {
+      "name": "model-no-ui",
+      "from": "features/*/model/**",
+      "to": "features/*/ui/**",
+      "reason": "model 层禁止依赖 ui 层"
+    },
+    {
+      "name": "hooks-no-ui",
+      "from": "features/*/hooks/**",
+      "to": "features/*/ui/**",
+      "reason": "hooks 层禁止依赖 ui 层"
+    },
+    {
+      "name": "ui-no-feature-entry",
+      "from": "features/*/ui/**",
+      "to": "features/*/KnowledgeGraphFeature.tsx",
+      "reason": "ui 层禁止回指 feature 入口组件"
+    }
+  ],
+  "crossFeatureRule": {
+    "enabled": true,
+    "allowIndexImportOnly": true,
+    "reason": "跨 feature 依赖仅允许通过目标 feature 的 index.ts 暴露接口"
+  }
+}

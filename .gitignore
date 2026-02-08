@@ -1,0 +1,20 @@
+# OS / editor
+.DS_Store
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Node dependencies
+node_modules/
+**/node_modules/
+
+# Environment files
+.env
+.env.*
+
+# Demo runtime/build artifacts
+demos/gomoku-10x10-kernel/.run/
+demos/gomoku-10x10-kernel/web-react/dist/
+

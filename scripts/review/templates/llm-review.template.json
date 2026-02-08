@@ -1,0 +1,23 @@
+{
+  "summary": "本次改动主要风险集中在状态流回归与边界交互。",
+  "riskLevel": "medium",
+  "confidence": 0.82,
+  "blockingIssues": [
+    {
+      "title": "示例阻断项",
+      "reason": "某路径存在可复现回归风险",
+      "evidence": [
+        "web/src/features/knowledge/KnowledgeGraphFeature.tsx:120"
+      ]
+    }
+  ],
+  "advisories": [
+    {
+      "title": "测试补充建议",
+      "reason": "建议覆盖新增分支的异常路径",
+      "evidence": [
+        "web/src/__tests__/knowledge-tree.test.ts"
+      ]
+    }
+  ]
+}

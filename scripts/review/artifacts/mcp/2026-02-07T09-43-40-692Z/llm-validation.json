@@ -1,0 +1,11 @@
+{
+  "generatedAt": "2026-02-07T09:43:40.707Z",
+  "inputPath": "scripts/review/input/llm-review.json",
+  "present": false,
+  "valid": false,
+  "status": "human_required",
+  "reasons": [
+    "LLM 风险报告缺失"
+  ],
+  "parsed": null
+}

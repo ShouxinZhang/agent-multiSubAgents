@@ -1,0 +1,23 @@
+{
+  "generatedAt": "2026-02-07T08:29:12.346Z",
+  "inputPath": "../../../../../tmp/llm-pass.json",
+  "present": true,
+  "valid": true,
+  "status": "pass",
+  "reasons": [],
+  "parsed": {
+    "summary": "风险可控",
+    "riskLevel": "low",
+    "confidence": 0.93,
+    "blockingIssues": [],
+    "advisories": [
+      {
+        "title": "补充回归用例",
+        "reason": "覆盖新增路径",
+        "evidence": [
+          "web/src/__tests__/knowledge-tree.test.ts:1"
+        ]
+      }
+    ]
+  }
+}

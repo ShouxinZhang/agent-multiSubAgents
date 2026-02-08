@@ -1,0 +1,23 @@
+{
+  "generatedAt": "2026-02-07T09:40:59.101Z",
+  "inputPath": "../../../../../tmp/llm-pass.json",
+  "present": true,
+  "valid": true,
+  "status": "pass",
+  "reasons": [],
+  "parsed": {
+    "summary": "smoke pass",
+    "riskLevel": "low",
+    "confidence": 0.96,
+    "blockingIssues": [],
+    "advisories": [
+      {
+        "title": "coverage",
+        "reason": "add regression tests",
+        "evidence": [
+          "web/src/__tests__/knowledge-tree.test.ts:1"
+        ]
+      }
+    ]
+  }
+}

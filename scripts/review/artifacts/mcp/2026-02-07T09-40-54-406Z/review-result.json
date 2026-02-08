@@ -1,0 +1,32 @@
+{
+  "generatedAt": "2026-02-07T09:40:59.104Z",
+  "runId": "2026-02-07T09-40-54-424Z",
+  "status": "PASS",
+  "steps": {
+    "buildCheck": {
+      "passed": true,
+      "logPath": "scripts/review/artifacts/2026-02-07T09-40-54-424Z/build-check.log"
+    },
+    "unitTest": {
+      "passed": true,
+      "logPath": "scripts/review/artifacts/2026-02-07T09-40-54-424Z/test.log"
+    },
+    "dependencyGate": {
+      "passed": true,
+      "reportPath": "scripts/review/artifacts/2026-02-07T09-40-54-424Z/dependency-report.json"
+    },
+    "llmValidation": {
+      "status": "PASS",
+      "reportPath": "scripts/review/artifacts/2026-02-07T09-40-54-424Z/llm-validation.json"
+    }
+  },
+  "reasons": {
+    "block": [],
+    "human": []
+  },
+  "artifacts": {
+    "context": "scripts/review/artifacts/2026-02-07T09-40-54-424Z/context.json",
+    "dependency": "scripts/review/artifacts/2026-02-07T09-40-54-424Z/dependency-report.json",
+    "llmValidation": "scripts/review/artifacts/2026-02-07T09-40-54-424Z/llm-validation.json"
+  }
+}

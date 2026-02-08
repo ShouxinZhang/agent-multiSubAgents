@@ -1,0 +1,34 @@
+{
+  "generatedAt": "2026-02-07T08:29:00.638Z",
+  "runId": "2026-02-07T08-28-55-920Z",
+  "status": "HUMAN",
+  "steps": {
+    "buildCheck": {
+      "passed": true,
+      "logPath": "scripts/review/artifacts/2026-02-07T08-28-55-920Z/build-check.log"
+    },
+    "unitTest": {
+      "passed": true,
+      "logPath": "scripts/review/artifacts/2026-02-07T08-28-55-920Z/test.log"
+    },
+    "dependencyGate": {
+      "passed": true,
+      "reportPath": "scripts/review/artifacts/2026-02-07T08-28-55-920Z/dependency-report.json"
+    },
+    "llmValidation": {
+      "status": "HUMAN_REQUIRED",
+      "reportPath": "scripts/review/artifacts/2026-02-07T08-28-55-920Z/llm-validation.json"
+    }
+  },
+  "reasons": {
+    "block": [],
+    "human": [
+      "LLM 风险报告缺失"
+    ]
+  },
+  "artifacts": {
+    "context": "scripts/review/artifacts/2026-02-07T08-28-55-920Z/context.json",
+    "dependency": "scripts/review/artifacts/2026-02-07T08-28-55-920Z/dependency-report.json",
+    "llmValidation": "scripts/review/artifacts/2026-02-07T08-28-55-920Z/llm-validation.json"
+  }
+}
