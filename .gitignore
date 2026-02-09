@@ -2,25 +2,36 @@
 .DS_Store
 *.swp
 *.swo
+*~
 
 # Logs
 *.log
 
 # Node dependencies
 node_modules/
-**/node_modules/
+
+# Build outputs
+dist/
+dist-ssr/
+
+# Lock files (no root package.json; sub-app locks stay in sub .gitignore)
+/package-lock.json
 
 # Environment files
 .env
 .env.*
+*.local
 
-# Demo runtime/build artifacts
-demos/gomoku-10x10-kernel/.run/
-demos/gomoku-10x10-kernel/web-react/dist/
+# Python virtual environments
+.venv/
 
 # Python cache
 __pycache__/
 *.pyc
+*.pyo
 
-# Gomoku runtime state
+# Runtime state (all apps)
 apps/gomoku_codex_cli/runtime/*.json
+apps/gomoku_codex_cli/runtime/*.jsonl
+apps/human_thinking_forum_codex_cli/runtime/*.json
+apps/human_thinking_forum_codex_cli/runtime/*.jsonl

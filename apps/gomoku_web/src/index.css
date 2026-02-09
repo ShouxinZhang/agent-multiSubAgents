@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 45 28% 94%;
+  --foreground: 160 35% 14%;
+  --card: 52 27% 96%;
+  --card-foreground: 160 35% 14%;
+  --primary: 157 40% 24%;
+  --primary-foreground: 48 80% 96%;
+  --muted: 47 24% 88%;
+  --muted-foreground: 155 16% 30%;
+  --border: 42 18% 76%;
+  --input: 42 18% 80%;
+  --ring: 156 50% 32%;
+  --radius: 14px;
+}
+
+* {
+  @apply border-border;
+}
+
+html,
+body,
+#root {
+  @apply h-full;
+}
+
+body {
+  @apply m-0 bg-background text-foreground font-sans;
+}
+
+.panel {
+  @apply rounded-lg border bg-card shadow-panel;
+}
+
+.code {
+  @apply font-mono text-[12px] leading-5;
+}

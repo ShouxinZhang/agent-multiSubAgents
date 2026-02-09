@@ -5,27 +5,25 @@
 <!-- REPO-TREE-START -->
 ```
 REPO/
-├── .agents/
-│   └── skills/
+├── .agents/                                 # AI agent configuration root
+│   └── skills/                              # agent skill definitions
 ├── apps/                                    # application modules
-│   └── gomoku_codex_cli/                    # dual Codex CLI Gomoku app
-├── docs/
+│   ├── gomoku_codex_cli/                    # dual Codex CLI Gomoku app
+│   └── human_thinking_forum_codex_cli/      # human-thinking forum module directory
+├── docs/                                    # project documentation root
 │   ├── architecture/                        # generated repository metadata and tree
 │   └── dev_logs/                            # development cycle logs
-├── general-skills/
-│   ├── .agents/
-│   ├── docs/
-│   ├── scripts/
-│   ├── AGENTS.md
-│   └── README.md
-├── scripts/
-│   ├── repo-metadata/
-│   ├── review/
-│   └── check_errors.sh
-├── .gitattributes
-├── .gitignore
-├── AGENTS.md
-├── LICENSE
+├── scripts/                                 # build, review, and tooling scripts
+│   ├── repo-metadata/                       # repo metadata management toolset
+│   ├── review/                              # automated code review pipeline
+│   ├── tools/                               # Python quality check tool modules
+│   └── check_errors.sh                      # multi-language quality gate shell script
+├── .gitattributes                           # git attributes configuration
+├── .gitignore                               # git ignore rules
+├── AGENTS.md                                # root agent instructions for the repo
+├── LICENSE                                  # project license file
+├── package-lock.json                        # npm dependency lockfile
+├── restart_forum.sh                         # one-click launcher for forum web app
 └── restart.sh                               # one-click restart launcher for Gomoku app
 ```
 <!-- REPO-TREE-END -->

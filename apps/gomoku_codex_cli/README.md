@@ -55,6 +55,35 @@ Optional arguments:
 python main.py --board-size 15 --model gpt-5.3-codex --turn-timeout 180
 ```
 
+## Web Shell (React + Vite)
+
+For web-based replay/debug UI, use:
+
+```bash
+bash restart_web.sh
+```
+
+It starts:
+
+1. `apps/gomoku_codex_cli/web_api.py` (reads runtime files and serves `/api/state`)
+2. `apps/gomoku_web` Vite dev server
+
+If you only want API:
+
+```bash
+python3 apps/gomoku_codex_cli/web_api.py --port 8787
+```
+
+Web API endpoints:
+
+- `GET /api/health`
+- `GET /api/state`
+- `GET /api/stream` (SSE)
+- `POST /api/match/start`
+- `POST /api/match/stop`
+- `POST /api/match/reset`
+- `POST /api/match/clear-memory`
+
 ## Notes
 
 - Board coordinates are 0-indexed inside MCP tool calls.

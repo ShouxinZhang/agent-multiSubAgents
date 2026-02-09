@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agent 思维调试页</title>
+    <link rel="stylesheet" href="/web/styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <header class="topbar">
+        <div>
+          <h1>Agent 思维调试页</h1>
+          <p>仅超级管理员可见：chat / thinking / MCP tool / system 事件。</p>
+        </div>
+        <div class="actions">
+          <a class="link-btn" href="/">返回论坛</a>
+          <button id="btn-refresh-db">刷新数据库快照</button>
+        </div>
+      </header>
+
+      <section class="card">
+        <h2>过滤器</h2>
+        <div class="filter-row">
+          <label><input type="checkbox" data-kind="chat" checked /> chat</label>
+          <label><input type="checkbox" data-kind="thinking" checked /> thinking</label>
+          <label><input type="checkbox" data-kind="tool" checked /> mcp/tool</label>
+          <label><input type="checkbox" data-kind="system" checked /> system</label>
+          <label><input type="checkbox" data-kind="raw" /> raw</label>
+        </div>
+      </section>
+
+      <section class="agent-grid" id="agent-panels"></section>
+
+      <section class="card">
+        <h2>数据库只读快照</h2>
+        <div class="db-grid">
+          <div>
+            <h3>users</h3>
+            <pre id="db-users"></pre>
+          </div>
+          <div>
+            <h3>agent_credentials（含明文）</h3>
+            <pre id="db-credentials"></pre>
+          </div>
+          <div>
+            <h3>sessions</h3>
+            <pre id="db-sessions"></pre>
+          </div>
+          <div>
+            <h3>posts/replies</h3>
+            <pre id="db-content"></pre>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <p id="admin-message"></p>
+      </footer>
+    </main>
+    <script src="/web/admin.js" type="module"></script>
+  </body>
+</html>

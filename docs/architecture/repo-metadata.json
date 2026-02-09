@@ -7,287 +7,279 @@
     ],
     "generateMdDepth": 2
   },
-  "updatedAt": "2026-02-08T03:09:46.415Z",
+  "updatedAt": "2026-02-09T03:49:09.211Z",
   "nodes": {
     ".agents": {
       "type": "directory",
-      "description": "",
+      "description": "AI agent configuration root",
       "detail": "",
       "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T02:34:59.769Z"
     },
     ".agents/skills": {
       "type": "directory",
-      "description": "",
+      "description": "agent skill definitions",
       "detail": "",
       "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T02:34:59.769Z"
     },
     ".agents/skills/build-check": {
       "type": "directory",
-      "description": "",
+      "description": "build quality gate skill",
       "detail": "",
       "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T02:34:59.769Z"
     },
     ".agents/skills/build-check/SKILL.md": {
       "type": "file",
-      "description": "",
+      "description": "build-check skill instructions",
       "detail": "",
       "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T02:34:59.769Z"
     },
     ".agents/skills/dependency-review-system": {
       "type": "directory",
-      "description": "",
+      "description": "dependency-driven AI review orchestrator",
       "detail": "",
       "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T02:34:59.769Z"
     },
     ".agents/skills/dependency-review-system/SKILL.md": {
       "type": "file",
-      "description": "",
+      "description": "dependency review skill instructions",
       "detail": "",
       "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T02:34:59.769Z"
     },
     ".agents/skills/dependency-review-system/subskills": {
       "type": "directory",
-      "description": "",
+      "description": "review pipeline sub-skill docs",
       "detail": "",
       "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T02:34:59.769Z"
     },
     ".agents/skills/dependency-review-system/subskills/collect-context.md": {
       "type": "file",
-      "description": "",
+      "description": "git context collection sub-skill doc",
       "detail": "",
       "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T02:34:59.769Z"
     },
     ".agents/skills/dependency-review-system/subskills/decision-gate.md": {
       "type": "file",
-      "description": "",
+      "description": "PASS/BLOCK/HUMAN decision sub-skill doc",
       "detail": "",
       "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T02:34:59.769Z"
     },
     ".agents/skills/dependency-review-system/subskills/dependency-guard.md": {
       "type": "file",
-      "description": "",
+      "description": "dependency gate enforcement sub-skill doc",
       "detail": "",
       "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T02:34:59.769Z"
     },
     ".agents/skills/dependency-review-system/subskills/risk-analyzer.md": {
       "type": "file",
-      "description": "",
+      "description": "LLM report validation sub-skill doc",
       "detail": "",
       "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T02:34:59.769Z"
     },
     ".agents/skills/dependency-review-system/subskills/test-gap-mapper.md": {
       "type": "file",
-      "description": "",
+      "description": "risk-to-test mapping sub-skill doc",
       "detail": "",
       "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T02:34:59.769Z"
     },
     ".agents/skills/dev-logs": {
       "type": "directory",
-      "description": "",
+      "description": "development log recording skill",
       "detail": "",
       "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T02:34:59.769Z"
     },
     ".agents/skills/dev-logs/SKILL.md": {
       "type": "file",
-      "description": "",
+      "description": "dev log skill instructions",
       "detail": "",
       "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T02:34:59.769Z"
     },
     ".agents/skills/domain-data-update": {
       "type": "directory",
-      "description": "",
+      "description": "core domain data maintenance skill",
       "detail": "",
       "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T02:34:59.769Z"
     },
     ".agents/skills/domain-data-update/SKILL.md": {
       "type": "file",
-      "description": "",
+      "description": "domain data update skill instructions",
       "detail": "",
       "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T02:34:59.769Z"
     },
     ".agents/skills/git-management": {
       "type": "directory",
-      "description": "",
+      "description": "git commit and rollback management skill",
       "detail": "",
       "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T02:34:59.769Z"
     },
     ".agents/skills/git-management/SKILL.md": {
       "type": "file",
-      "description": "",
+      "description": "git management skill instructions",
       "detail": "",
       "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T02:34:59.769Z"
     },
     ".agents/skills/local-dev-workflow": {
       "type": "directory",
-      "description": "",
+      "description": "end-to-end local development SOP skill",
       "detail": "",
       "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T02:34:59.769Z"
     },
     ".agents/skills/local-dev-workflow/SKILL.md": {
       "type": "file",
-      "description": "",
+      "description": "local dev workflow skill instructions",
       "detail": "",
       "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T02:34:59.769Z"
     },
     ".agents/skills/modularization-governance": {
       "type": "directory",
-      "description": "",
+      "description": "mechanical modularity governance skill",
       "detail": "",
       "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
-    },
-    ".agents/skills/modularization-governance/SKILL.md": {
-      "type": "file",
-      "description": "",
-      "detail": "",
-      "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T02:34:59.769Z"
     },
     ".agents/skills/modularization-governance/references": {
       "type": "directory",
-      "description": "",
+      "description": "governance reference docs and templates",
       "detail": "",
       "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T02:34:59.769Z"
     },
     ".agents/skills/modularization-governance/references/modularity-policy.template.json": {
       "type": "file",
-      "description": "",
+      "description": "modularity check policy template",
       "detail": "",
       "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T02:34:59.769Z"
     },
     ".agents/skills/modularization-governance/references/refactor-playbook.md": {
       "type": "file",
-      "description": "",
+      "description": "minimum refactoring action guide",
       "detail": "",
       "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T02:34:59.769Z"
     },
     ".agents/skills/modularization-governance/references/scorecard.md": {
       "type": "file",
-      "description": "",
+      "description": "mechanical modularity rule definitions",
       "detail": "",
       "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T02:34:59.769Z"
     },
     ".agents/skills/modularization-governance/scripts": {
       "type": "directory",
-      "description": "",
+      "description": "governance automation scripts",
       "detail": "",
       "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T02:34:59.769Z"
     },
     ".agents/skills/modularization-governance/scripts/check-modularity.mjs": {
       "type": "file",
-      "description": "",
+      "description": "module structure and dependency checker",
       "detail": "",
       "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T02:34:59.769Z"
     },
     ".agents/skills/modularization-governance/scripts/check-unused-symbols.mjs": {
       "type": "file",
-      "description": "",
+      "description": "unused TS symbol detector via tsc",
       "detail": "",
       "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T02:34:59.769Z"
+    },
+    ".agents/skills/modularization-governance/SKILL.md": {
+      "type": "file",
+      "description": "modularity governance skill instructions",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T02:34:59.769Z"
     },
     ".agents/skills/repo-structure-sync": {
       "type": "directory",
-      "description": "",
+      "description": "repo structure doc sync skill",
       "detail": "",
       "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T02:34:59.769Z"
     },
     ".agents/skills/repo-structure-sync/SKILL.md": {
       "type": "file",
-      "description": "",
+      "description": "repo structure sync skill instructions",
       "detail": "",
       "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T02:34:59.769Z"
     },
     ".gitattributes": {
       "type": "file",
-      "description": "",
+      "description": "git attributes configuration",
       "detail": "",
       "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T02:34:59.769Z"
     },
     ".gitignore": {
       "type": "file",
-      "description": "",
+      "description": "git ignore rules",
       "detail": "",
       "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T02:34:59.769Z"
     },
     "AGENTS.md": {
       "type": "file",
-      "description": "",
+      "description": "root agent instructions for the repo",
       "detail": "",
       "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
-    },
-    "LICENSE": {
-      "type": "file",
-      "description": "",
-      "detail": "",
-      "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T02:34:59.769Z"
     },
     "apps": {
       "type": "directory",
@@ -305,14 +297,6 @@
       "updatedBy": "human",
       "updatedAt": "2026-02-08T02:57:23.282Z"
     },
-    "apps/gomoku_codex_cli/README.md": {
-      "type": "file",
-      "description": "",
-      "detail": "",
-      "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:57:10.850Z"
-    },
     "apps/gomoku_codex_cli/gomoku": {
       "type": "directory",
       "description": "gomoku engine, mcp tools, agents, GUI",
@@ -323,75 +307,83 @@
     },
     "apps/gomoku_codex_cli/gomoku/__init__.py": {
       "type": "file",
-      "description": "",
+      "description": "gomoku package init, exports B/W/EMPTY",
       "detail": "",
       "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:57:10.850Z"
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T02:34:59.769Z"
     },
     "apps/gomoku_codex_cli/gomoku/codex_agent.py": {
       "type": "file",
-      "description": "",
+      "description": "Codex CLI subprocess agent driver",
       "detail": "",
       "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:57:10.850Z"
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T02:34:59.769Z"
     },
     "apps/gomoku_codex_cli/gomoku/engine.py": {
       "type": "file",
-      "description": "",
+      "description": "gomoku board logic and move validation",
       "detail": "",
       "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:57:10.850Z"
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T02:34:59.769Z"
     },
     "apps/gomoku_codex_cli/gomoku/gui.py": {
       "type": "file",
-      "description": "",
+      "description": "tkinter GUI and battle coordinator",
       "detail": "",
       "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:57:10.850Z"
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T02:34:59.769Z"
     },
     "apps/gomoku_codex_cli/gomoku/mcp_server.py": {
       "type": "file",
-      "description": "",
+      "description": "MCP tool server for Codex agents",
       "detail": "",
       "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:57:10.850Z"
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T02:34:59.769Z"
     },
     "apps/gomoku_codex_cli/gomoku/memory_store.py": {
       "type": "file",
-      "description": "",
+      "description": "file-locked agent memory JSON store",
       "detail": "",
       "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:57:10.850Z"
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T02:34:59.769Z"
     },
     "apps/gomoku_codex_cli/gomoku/state_store.py": {
       "type": "file",
-      "description": "",
+      "description": "file-locked game state JSON store",
       "detail": "",
       "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:57:10.850Z"
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T02:34:59.769Z"
     },
     "apps/gomoku_codex_cli/main.py": {
       "type": "file",
-      "description": "",
+      "description": "gomoku app CLI entry point",
       "detail": "",
       "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:57:10.850Z"
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T02:34:59.769Z"
+    },
+    "apps/gomoku_codex_cli/README.md": {
+      "type": "file",
+      "description": "gomoku app usage and setup documentation",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T02:34:59.769Z"
     },
     "apps/gomoku_codex_cli/requirements.txt": {
       "type": "file",
-      "description": "",
+      "description": "Python dependencies for gomoku app",
       "detail": "",
       "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:57:10.850Z"
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T02:34:59.769Z"
     },
     "apps/gomoku_codex_cli/runtime": {
       "type": "directory",
@@ -403,11 +395,27 @@
     },
     "apps/gomoku_codex_cli/runtime/.gitkeep": {
       "type": "file",
-      "description": "",
+      "description": "placeholder to track runtime directory",
       "detail": "",
       "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:57:10.850Z"
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T02:34:59.769Z"
+    },
+    "apps/gomoku_codex_cli/runtime/memory.json.lock": {
+      "type": "file",
+      "description": "file lock for memory.json concurrency",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T02:34:59.769Z"
+    },
+    "apps/gomoku_codex_cli/runtime/state.json.lock": {
+      "type": "file",
+      "description": "file lock for state.json concurrency",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T02:34:59.769Z"
     },
     "apps/gomoku_codex_cli/tests": {
       "type": "directory",
@@ -419,19 +427,387 @@
     },
     "apps/gomoku_codex_cli/tests/test_engine.py": {
       "type": "file",
-      "description": "",
+      "description": "unit tests for gomoku engine logic",
       "detail": "",
       "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:57:10.850Z"
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T02:34:59.769Z"
+    },
+    "apps/human_thinking_forum_codex_cli": {
+      "type": "directory",
+      "description": "human-thinking forum module directory",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T03:47:27.491Z"
+    },
+    "apps/human_thinking_forum_codex_cli/config": {
+      "type": "directory",
+      "description": "human-thinking forum module directory",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T03:47:34.644Z"
+    },
+    "apps/human_thinking_forum_codex_cli/config/agents.json": {
+      "type": "file",
+      "description": "human-thinking forum module file",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T03:48:35.107Z"
+    },
+    "apps/human_thinking_forum_codex_cli/forum": {
+      "type": "directory",
+      "description": "human-thinking forum module directory",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T03:47:34.662Z"
+    },
+    "apps/human_thinking_forum_codex_cli/forum/__init__.py": {
+      "type": "file",
+      "description": "human-thinking forum module file",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T03:48:35.131Z"
+    },
+    "apps/human_thinking_forum_codex_cli/forum/agent_orchestrator.py": {
+      "type": "file",
+      "description": "human-thinking forum module file",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T03:48:35.369Z"
+    },
+    "apps/human_thinking_forum_codex_cli/forum/auth.py": {
+      "type": "file",
+      "description": "human-thinking forum module file",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T03:48:35.392Z"
+    },
+    "apps/human_thinking_forum_codex_cli/forum/codex_agent.py": {
+      "type": "file",
+      "description": "human-thinking forum module file",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T03:48:35.415Z"
+    },
+    "apps/human_thinking_forum_codex_cli/forum/mcp_server.py": {
+      "type": "file",
+      "description": "human-thinking forum module file",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T03:48:35.439Z"
+    },
+    "apps/human_thinking_forum_codex_cli/forum/models.py": {
+      "type": "file",
+      "description": "human-thinking forum module file",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T03:48:35.464Z"
+    },
+    "apps/human_thinking_forum_codex_cli/forum/skills_loader.py": {
+      "type": "file",
+      "description": "human-thinking forum module file",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T03:48:35.488Z"
+    },
+    "apps/human_thinking_forum_codex_cli/forum/store.py": {
+      "type": "file",
+      "description": "human-thinking forum module file",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T03:48:35.512Z"
+    },
+    "apps/human_thinking_forum_codex_cli/forum/web_app.py": {
+      "type": "file",
+      "description": "human-thinking forum module file",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T03:48:35.534Z"
+    },
+    "apps/human_thinking_forum_codex_cli/main.py": {
+      "type": "file",
+      "description": "human-thinking forum module file",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T03:48:35.556Z"
+    },
+    "apps/human_thinking_forum_codex_cli/README.md": {
+      "type": "file",
+      "description": "human-thinking forum module file",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T03:48:35.060Z"
+    },
+    "apps/human_thinking_forum_codex_cli/requirements.txt": {
+      "type": "file",
+      "description": "human-thinking forum module file",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T03:48:35.580Z"
+    },
+    "apps/human_thinking_forum_codex_cli/runtime": {
+      "type": "directory",
+      "description": "human-thinking forum module directory",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T03:47:34.704Z"
+    },
+    "apps/human_thinking_forum_codex_cli/runtime/.gitkeep": {
+      "type": "file",
+      "description": "human-thinking forum module file",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T03:48:35.606Z"
+    },
+    "apps/human_thinking_forum_codex_cli/skills": {
+      "type": "directory",
+      "description": "human-thinking forum module directory",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T03:47:35.091Z"
+    },
+    "apps/human_thinking_forum_codex_cli/skills/agents": {
+      "type": "directory",
+      "description": "human-thinking forum module directory",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T03:47:35.109Z"
+    },
+    "apps/human_thinking_forum_codex_cli/skills/agents/ada": {
+      "type": "directory",
+      "description": "human-thinking forum module directory",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T03:47:35.127Z"
+    },
+    "apps/human_thinking_forum_codex_cli/skills/agents/ada/voice": {
+      "type": "directory",
+      "description": "human-thinking forum module directory",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T03:47:35.146Z"
+    },
+    "apps/human_thinking_forum_codex_cli/skills/agents/ada/voice/SKILL.md": {
+      "type": "file",
+      "description": "human-thinking forum module file",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T03:48:36.006Z"
+    },
+    "apps/human_thinking_forum_codex_cli/skills/agents/laozi": {
+      "type": "directory",
+      "description": "human-thinking forum module directory",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T03:47:35.167Z"
+    },
+    "apps/human_thinking_forum_codex_cli/skills/agents/laozi/voice": {
+      "type": "directory",
+      "description": "human-thinking forum module directory",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T03:47:35.186Z"
+    },
+    "apps/human_thinking_forum_codex_cli/skills/agents/laozi/voice/SKILL.md": {
+      "type": "file",
+      "description": "human-thinking forum module file",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T03:48:36.032Z"
+    },
+    "apps/human_thinking_forum_codex_cli/skills/agents/socrates": {
+      "type": "directory",
+      "description": "human-thinking forum module directory",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T03:47:35.204Z"
+    },
+    "apps/human_thinking_forum_codex_cli/skills/agents/socrates/voice": {
+      "type": "directory",
+      "description": "human-thinking forum module directory",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T03:47:35.221Z"
+    },
+    "apps/human_thinking_forum_codex_cli/skills/agents/socrates/voice/SKILL.md": {
+      "type": "file",
+      "description": "human-thinking forum module file",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T03:48:36.057Z"
+    },
+    "apps/human_thinking_forum_codex_cli/skills/agents/turing": {
+      "type": "directory",
+      "description": "human-thinking forum module directory",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T03:47:35.241Z"
+    },
+    "apps/human_thinking_forum_codex_cli/skills/agents/turing/voice": {
+      "type": "directory",
+      "description": "human-thinking forum module directory",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T03:47:35.258Z"
+    },
+    "apps/human_thinking_forum_codex_cli/skills/agents/turing/voice/SKILL.md": {
+      "type": "file",
+      "description": "human-thinking forum module file",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T03:48:36.081Z"
+    },
+    "apps/human_thinking_forum_codex_cli/skills/shared": {
+      "type": "directory",
+      "description": "human-thinking forum module directory",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T03:47:35.274Z"
+    },
+    "apps/human_thinking_forum_codex_cli/skills/shared/forum-baseline": {
+      "type": "directory",
+      "description": "human-thinking forum module directory",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T03:47:35.292Z"
+    },
+    "apps/human_thinking_forum_codex_cli/skills/shared/forum-baseline/SKILL.md": {
+      "type": "file",
+      "description": "human-thinking forum module file",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T03:48:36.107Z"
+    },
+    "apps/human_thinking_forum_codex_cli/tests": {
+      "type": "directory",
+      "description": "human-thinking forum module directory",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T03:47:35.310Z"
+    },
+    "apps/human_thinking_forum_codex_cli/tests/test_admin_api.py": {
+      "type": "file",
+      "description": "human-thinking forum module file",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T03:48:36.230Z"
+    },
+    "apps/human_thinking_forum_codex_cli/tests/test_auth.py": {
+      "type": "file",
+      "description": "human-thinking forum module file",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T03:48:36.260Z"
+    },
+    "apps/human_thinking_forum_codex_cli/tests/test_mcp_tools.py": {
+      "type": "file",
+      "description": "human-thinking forum module file",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T03:48:36.285Z"
+    },
+    "apps/human_thinking_forum_codex_cli/tests/test_store.py": {
+      "type": "file",
+      "description": "human-thinking forum module file",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T03:48:36.310Z"
+    },
+    "apps/human_thinking_forum_codex_cli/web": {
+      "type": "directory",
+      "description": "human-thinking forum module directory",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T03:47:35.350Z"
+    },
+    "apps/human_thinking_forum_codex_cli/web/admin.html": {
+      "type": "file",
+      "description": "human-thinking forum module file",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T03:48:36.335Z"
+    },
+    "apps/human_thinking_forum_codex_cli/web/admin.js": {
+      "type": "file",
+      "description": "human-thinking forum module file",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T03:48:36.362Z"
+    },
+    "apps/human_thinking_forum_codex_cli/web/app.js": {
+      "type": "file",
+      "description": "human-thinking forum module file",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T03:48:36.384Z"
+    },
+    "apps/human_thinking_forum_codex_cli/web/index.html": {
+      "type": "file",
+      "description": "human-thinking forum module file",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T03:48:36.408Z"
+    },
+    "apps/human_thinking_forum_codex_cli/web/styles.css": {
+      "type": "file",
+      "description": "human-thinking forum module file",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T03:48:36.436Z"
     },
     "docs": {
       "type": "directory",
-      "description": "",
+      "description": "project documentation root",
       "detail": "",
       "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:57:10.850Z"
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T02:34:59.769Z"
     },
     "docs/architecture": {
       "type": "directory",
@@ -443,19 +819,19 @@
     },
     "docs/architecture/repo-metadata.json": {
       "type": "file",
-      "description": "",
+      "description": "structured repo metadata store (JSON)",
       "detail": "",
       "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:57:10.850Z"
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T02:34:59.769Z"
     },
     "docs/architecture/repository-structure.md": {
       "type": "file",
-      "description": "",
+      "description": "auto-generated directory tree document",
       "detail": "",
       "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:57:10.850Z"
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T02:34:59.769Z"
     },
     "docs/dev_logs": {
       "type": "directory",
@@ -465,557 +841,29 @@
       "updatedBy": "human",
       "updatedAt": "2026-02-08T03:09:46.415Z"
     },
-    "general-skills": {
-      "type": "directory",
-      "description": "",
-      "detail": "",
-      "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
-    },
-    "general-skills/.agents": {
-      "type": "directory",
-      "description": "",
-      "detail": "",
-      "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
-    },
-    "general-skills/.agents/skills": {
-      "type": "directory",
-      "description": "",
-      "detail": "",
-      "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
-    },
-    "general-skills/.agents/skills/local-dev-workflow": {
-      "type": "directory",
-      "description": "",
-      "detail": "",
-      "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
-    },
-    "general-skills/.agents/skills/local-dev-workflow/SKILL.md": {
+    "LICENSE": {
       "type": "file",
-      "description": "",
+      "description": "project license file",
       "detail": "",
       "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T02:34:59.769Z"
     },
-    "general-skills/.agents/skills/local-dev-workflow/subskills": {
-      "type": "directory",
-      "description": "",
-      "detail": "",
-      "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
-    },
-    "general-skills/.agents/skills/local-dev-workflow/subskills/build-check.md": {
+    "package-lock.json": {
       "type": "file",
-      "description": "",
+      "description": "npm dependency lockfile",
       "detail": "",
       "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T02:34:59.769Z"
     },
-    "general-skills/.agents/skills/local-dev-workflow/subskills/dependency-review-system": {
-      "type": "directory",
-      "description": "",
-      "detail": "",
-      "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
-    },
-    "general-skills/.agents/skills/local-dev-workflow/subskills/dependency-review-system.md": {
+    "restart_forum.sh": {
       "type": "file",
-      "description": "",
+      "description": "one-click launcher for forum web app",
       "detail": "",
       "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
-    },
-    "general-skills/.agents/skills/local-dev-workflow/subskills/dependency-review-system/collect-context.md": {
-      "type": "file",
-      "description": "",
-      "detail": "",
-      "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
-    },
-    "general-skills/.agents/skills/local-dev-workflow/subskills/dependency-review-system/decision-gate.md": {
-      "type": "file",
-      "description": "",
-      "detail": "",
-      "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
-    },
-    "general-skills/.agents/skills/local-dev-workflow/subskills/dependency-review-system/dependency-guard.md": {
-      "type": "file",
-      "description": "",
-      "detail": "",
-      "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
-    },
-    "general-skills/.agents/skills/local-dev-workflow/subskills/dependency-review-system/risk-analyzer.md": {
-      "type": "file",
-      "description": "",
-      "detail": "",
-      "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
-    },
-    "general-skills/.agents/skills/local-dev-workflow/subskills/dependency-review-system/test-gap-mapper.md": {
-      "type": "file",
-      "description": "",
-      "detail": "",
-      "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
-    },
-    "general-skills/.agents/skills/local-dev-workflow/subskills/dev-logs.md": {
-      "type": "file",
-      "description": "",
-      "detail": "",
-      "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
-    },
-    "general-skills/.agents/skills/local-dev-workflow/subskills/domain-data-update.md": {
-      "type": "file",
-      "description": "",
-      "detail": "",
-      "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
-    },
-    "general-skills/.agents/skills/local-dev-workflow/subskills/git-management.md": {
-      "type": "file",
-      "description": "",
-      "detail": "",
-      "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
-    },
-    "general-skills/.agents/skills/local-dev-workflow/subskills/modularization-governance.md": {
-      "type": "file",
-      "description": "",
-      "detail": "",
-      "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
-    },
-    "general-skills/.agents/skills/local-dev-workflow/subskills/repo-structure-sync.md": {
-      "type": "file",
-      "description": "",
-      "detail": "",
-      "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
-    },
-    "general-skills/AGENTS.md": {
-      "type": "file",
-      "description": "",
-      "detail": "",
-      "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
-    },
-    "general-skills/README.md": {
-      "type": "file",
-      "description": "",
-      "detail": "",
-      "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
-    },
-    "general-skills/docs": {
-      "type": "directory",
-      "description": "",
-      "detail": "",
-      "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
-    },
-    "general-skills/docs/dev_logs": {
-      "type": "directory",
-      "description": "",
-      "detail": "",
-      "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
-    },
-    "general-skills/docs/dev_logs/2026-02-08": {
-      "type": "directory",
-      "description": "",
-      "detail": "",
-      "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
-    },
-    "general-skills/docs/dev_logs/2026-02-08/01-general-skills-dedup-and-skill-doc-restructure.md": {
-      "type": "file",
-      "description": "",
-      "detail": "",
-      "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
-    },
-    "general-skills/docs/dev_logs/2026-02-08/02-skill-entry-subskills-and-agents-pairing.md": {
-      "type": "file",
-      "description": "",
-      "detail": "",
-      "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
-    },
-    "general-skills/docs/dev_logs/2026-02-08/03-single-entry-skill-and-chinese-agents.md": {
-      "type": "file",
-      "description": "",
-      "detail": "",
-      "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
-    },
-    "general-skills/scripts": {
-      "type": "directory",
-      "description": "",
-      "detail": "",
-      "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
-    },
-    "general-skills/scripts/check_errors.sh": {
-      "type": "file",
-      "description": "",
-      "detail": "",
-      "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
-    },
-    "general-skills/scripts/lib": {
-      "type": "directory",
-      "description": "",
-      "detail": "",
-      "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
-    },
-    "general-skills/scripts/lib/common.mjs": {
-      "type": "file",
-      "description": "",
-      "detail": "",
-      "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
-    },
-    "general-skills/scripts/modularization-governance": {
-      "type": "directory",
-      "description": "",
-      "detail": "",
-      "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
-    },
-    "general-skills/scripts/modularization-governance/README.md": {
-      "type": "file",
-      "description": "",
-      "detail": "",
-      "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
-    },
-    "general-skills/scripts/modularization-governance/references": {
-      "type": "directory",
-      "description": "",
-      "detail": "",
-      "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
-    },
-    "general-skills/scripts/modularization-governance/references/modularity-policy.template.json": {
-      "type": "file",
-      "description": "",
-      "detail": "",
-      "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
-    },
-    "general-skills/scripts/modularization-governance/references/refactor-playbook.md": {
-      "type": "file",
-      "description": "",
-      "detail": "",
-      "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
-    },
-    "general-skills/scripts/modularization-governance/references/scorecard.md": {
-      "type": "file",
-      "description": "",
-      "detail": "",
-      "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
-    },
-    "general-skills/scripts/modularization-governance/scripts": {
-      "type": "directory",
-      "description": "",
-      "detail": "",
-      "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
-    },
-    "general-skills/scripts/modularization-governance/scripts/check-modularity.mjs": {
-      "type": "file",
-      "description": "",
-      "detail": "",
-      "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
-    },
-    "general-skills/scripts/modularization-governance/scripts/check-unused-symbols.mjs": {
-      "type": "file",
-      "description": "",
-      "detail": "",
-      "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
-    },
-    "general-skills/scripts/repo-metadata": {
-      "type": "directory",
-      "description": "",
-      "detail": "",
-      "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
-    },
-    "general-skills/scripts/repo-metadata/README.md": {
-      "type": "file",
-      "description": "",
-      "detail": "",
-      "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
-    },
-    "general-skills/scripts/repo-metadata/lib": {
-      "type": "directory",
-      "description": "",
-      "detail": "",
-      "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
-    },
-    "general-skills/scripts/repo-metadata/lib/shared.mjs": {
-      "type": "file",
-      "description": "",
-      "detail": "",
-      "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
-    },
-    "general-skills/scripts/repo-metadata/mcp-server.mjs": {
-      "type": "file",
-      "description": "",
-      "detail": "",
-      "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
-    },
-    "general-skills/scripts/repo-metadata/package.json": {
-      "type": "file",
-      "description": "",
-      "detail": "",
-      "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
-    },
-    "general-skills/scripts/repo-metadata/scripts": {
-      "type": "directory",
-      "description": "",
-      "detail": "",
-      "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
-    },
-    "general-skills/scripts/repo-metadata/scripts/crud.mjs": {
-      "type": "file",
-      "description": "",
-      "detail": "",
-      "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
-    },
-    "general-skills/scripts/repo-metadata/scripts/generate-structure-md.mjs": {
-      "type": "file",
-      "description": "",
-      "detail": "",
-      "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
-    },
-    "general-skills/scripts/repo-metadata/scripts/scan.mjs": {
-      "type": "file",
-      "description": "",
-      "detail": "",
-      "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
-    },
-    "general-skills/scripts/repo-metadata/scripts/sync-json-to-postgres.mjs": {
-      "type": "file",
-      "description": "",
-      "detail": "",
-      "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
-    },
-    "general-skills/scripts/repo-metadata/scripts/sync-to-json.mjs": {
-      "type": "file",
-      "description": "",
-      "detail": "",
-      "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
-    },
-    "general-skills/scripts/repo-metadata/sql": {
-      "type": "directory",
-      "description": "",
-      "detail": "",
-      "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
-    },
-    "general-skills/scripts/repo-metadata/sql/001_init.sql": {
-      "type": "file",
-      "description": "",
-      "detail": "",
-      "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
-    },
-    "general-skills/scripts/review": {
-      "type": "directory",
-      "description": "",
-      "detail": "",
-      "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
-    },
-    "general-skills/scripts/review/README.md": {
-      "type": "file",
-      "description": "",
-      "detail": "",
-      "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
-    },
-    "general-skills/scripts/review/config": {
-      "type": "directory",
-      "description": "",
-      "detail": "",
-      "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
-    },
-    "general-skills/scripts/review/config/policy.json": {
-      "type": "file",
-      "description": "",
-      "detail": "",
-      "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
-    },
-    "general-skills/scripts/review/input": {
-      "type": "directory",
-      "description": "",
-      "detail": "",
-      "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
-    },
-    "general-skills/scripts/review/input/.gitkeep": {
-      "type": "file",
-      "description": "",
-      "detail": "",
-      "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
-    },
-    "general-skills/scripts/review/mcp-server.mjs": {
-      "type": "file",
-      "description": "",
-      "detail": "",
-      "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
-    },
-    "general-skills/scripts/review/run.sh": {
-      "type": "file",
-      "description": "",
-      "detail": "",
-      "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
-    },
-    "general-skills/scripts/review/scripts": {
-      "type": "directory",
-      "description": "",
-      "detail": "",
-      "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
-    },
-    "general-skills/scripts/review/scripts/collect-context.mjs": {
-      "type": "file",
-      "description": "",
-      "detail": "",
-      "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
-    },
-    "general-skills/scripts/review/scripts/dependency-gate.mjs": {
-      "type": "file",
-      "description": "",
-      "detail": "",
-      "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
-    },
-    "general-skills/scripts/review/scripts/run-review.mjs": {
-      "type": "file",
-      "description": "",
-      "detail": "",
-      "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
-    },
-    "general-skills/scripts/review/scripts/validate-llm-report.mjs": {
-      "type": "file",
-      "description": "",
-      "detail": "",
-      "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
-    },
-    "general-skills/scripts/review/templates": {
-      "type": "directory",
-      "description": "",
-      "detail": "",
-      "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
-    },
-    "general-skills/scripts/review/templates/llm-review.template.json": {
-      "type": "file",
-      "description": "",
-      "detail": "",
-      "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T03:48:36.459Z"
     },
     "restart.sh": {
       "type": "file",
@@ -1027,251 +875,291 @@
     },
     "scripts": {
       "type": "directory",
-      "description": "",
+      "description": "build, review, and tooling scripts",
       "detail": "",
       "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T02:34:59.769Z"
     },
     "scripts/check_errors.sh": {
       "type": "file",
-      "description": "",
+      "description": "multi-language quality gate shell script",
       "detail": "",
       "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T02:34:59.769Z"
     },
     "scripts/repo-metadata": {
       "type": "directory",
-      "description": "",
+      "description": "repo metadata management toolset",
       "detail": "",
       "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
-    },
-    "scripts/repo-metadata/README.md": {
-      "type": "file",
-      "description": "",
-      "detail": "",
-      "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T02:34:59.769Z"
     },
     "scripts/repo-metadata/lib": {
       "type": "directory",
-      "description": "",
+      "description": "shared utility library for metadata ops",
       "detail": "",
       "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T02:34:59.769Z"
     },
     "scripts/repo-metadata/lib/shared.mjs": {
       "type": "file",
-      "description": "",
+      "description": "shared helpers: tree build, IO, glob",
       "detail": "",
       "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T02:34:59.769Z"
     },
     "scripts/repo-metadata/mcp-server.mjs": {
       "type": "file",
-      "description": "",
+      "description": "MCP server exposing metadata CRUD tools",
       "detail": "",
       "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T02:34:59.769Z"
     },
     "scripts/repo-metadata/package.json": {
       "type": "file",
-      "description": "",
+      "description": "Node.js manifest for repo-metadata",
       "detail": "",
       "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T02:34:59.769Z"
+    },
+    "scripts/repo-metadata/README.md": {
+      "type": "file",
+      "description": "repo-metadata toolset documentation",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T02:34:59.769Z"
     },
     "scripts/repo-metadata/scripts": {
       "type": "directory",
-      "description": "",
+      "description": "CLI scripts for metadata operations",
       "detail": "",
       "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T02:34:59.769Z"
     },
     "scripts/repo-metadata/scripts/crud.mjs": {
       "type": "file",
-      "description": "",
+      "description": "metadata CRUD and batch-set CLI",
       "detail": "",
       "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T02:34:59.769Z"
     },
     "scripts/repo-metadata/scripts/generate-structure-md.mjs": {
       "type": "file",
-      "description": "",
+      "description": "generate directory tree into markdown",
       "detail": "",
       "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T02:34:59.769Z"
     },
     "scripts/repo-metadata/scripts/scan.mjs": {
       "type": "file",
-      "description": "",
+      "description": "scan repo and diff against metadata JSON",
       "detail": "",
       "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T02:34:59.769Z"
     },
     "scripts/repo-metadata/scripts/sync-json-to-postgres.mjs": {
       "type": "file",
-      "description": "",
+      "description": "push metadata JSON to PostgreSQL",
       "detail": "",
       "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T02:34:59.769Z"
     },
     "scripts/repo-metadata/scripts/sync-to-json.mjs": {
       "type": "file",
-      "description": "",
+      "description": "pull metadata from PostgreSQL to JSON",
       "detail": "",
       "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T02:34:59.769Z"
     },
     "scripts/repo-metadata/sql": {
       "type": "directory",
-      "description": "",
+      "description": "PostgreSQL schema definitions",
       "detail": "",
       "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T02:34:59.769Z"
     },
     "scripts/repo-metadata/sql/001_init.sql": {
       "type": "file",
-      "description": "",
+      "description": "PG table and trigger initialization",
       "detail": "",
       "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T02:34:59.769Z"
     },
     "scripts/review": {
       "type": "directory",
-      "description": "",
+      "description": "automated code review pipeline",
       "detail": "",
       "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
-    },
-    "scripts/review/README.md": {
-      "type": "file",
-      "description": "",
-      "detail": "",
-      "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T02:34:59.769Z"
     },
     "scripts/review/config": {
       "type": "directory",
-      "description": "",
+      "description": "review policy configuration",
       "detail": "",
       "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T02:34:59.769Z"
     },
     "scripts/review/config/policy.json": {
       "type": "file",
-      "description": "",
+      "description": "review thresholds and rule definitions",
       "detail": "",
       "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T02:34:59.769Z"
     },
     "scripts/review/input": {
       "type": "directory",
-      "description": "",
+      "description": "LLM review report input directory",
       "detail": "",
       "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T02:34:59.769Z"
     },
     "scripts/review/input/.gitkeep": {
       "type": "file",
-      "description": "",
+      "description": "placeholder to track input directory",
       "detail": "",
       "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T02:34:59.769Z"
     },
     "scripts/review/mcp-server.mjs": {
       "type": "file",
-      "description": "",
+      "description": "MCP server exposing review pipeline tools",
       "detail": "",
       "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T02:34:59.769Z"
+    },
+    "scripts/review/README.md": {
+      "type": "file",
+      "description": "review pipeline documentation",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T02:34:59.769Z"
     },
     "scripts/review/run.sh": {
       "type": "file",
-      "description": "",
+      "description": "one-click review pipeline launcher",
       "detail": "",
       "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T02:34:59.769Z"
     },
     "scripts/review/scripts": {
       "type": "directory",
-      "description": "",
+      "description": "review pipeline step scripts",
       "detail": "",
       "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T02:34:59.769Z"
     },
     "scripts/review/scripts/collect-context.mjs": {
       "type": "file",
-      "description": "",
+      "description": "collect git diff context for review",
       "detail": "",
       "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T02:34:59.769Z"
     },
     "scripts/review/scripts/dependency-gate.mjs": {
       "type": "file",
-      "description": "",
+      "description": "circular and forbidden dependency gate",
       "detail": "",
       "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T02:34:59.769Z"
     },
     "scripts/review/scripts/run-review.mjs": {
       "type": "file",
-      "description": "",
+      "description": "orchestrate full review pipeline",
       "detail": "",
       "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T02:34:59.769Z"
     },
     "scripts/review/scripts/validate-llm-report.mjs": {
       "type": "file",
-      "description": "",
+      "description": "validate LLM risk report structure",
       "detail": "",
       "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T02:34:59.769Z"
     },
     "scripts/review/templates": {
       "type": "directory",
-      "description": "",
+      "description": "review report templates",
       "detail": "",
       "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T02:34:59.769Z"
     },
     "scripts/review/templates/llm-review.template.json": {
       "type": "file",
-      "description": "",
+      "description": "sample LLM review report template",
       "detail": "",
       "tags": [],
-      "updatedBy": "scan",
-      "updatedAt": "2026-02-08T02:56:27.634Z"
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T02:34:59.769Z"
+    },
+    "scripts/tools": {
+      "type": "directory",
+      "description": "Python quality check tool modules",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T02:34:59.769Z"
+    },
+    "scripts/tools/check_errors": {
+      "type": "directory",
+      "description": "Python error checking package",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T02:34:59.769Z"
+    },
+    "scripts/tools/check_errors/__init__.py": {
+      "type": "file",
+      "description": "check_errors package init (empty)",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T02:34:59.769Z"
+    },
+    "scripts/tools/check_errors/unused_imports.py": {
+      "type": "file",
+      "description": "AST-based unused import detector",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T02:34:59.769Z"
+    },
+    "scripts/tools/check_errors/validate_dunder_all.py": {
+      "type": "file",
+      "description": "__all__ export correctness validator",
+      "detail": "",
+      "tags": [],
+      "updatedBy": "llm",
+      "updatedAt": "2026-02-09T02:34:59.769Z"
     }
   }
 }
